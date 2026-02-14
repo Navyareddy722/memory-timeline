@@ -1,0 +1,43 @@
+body {
+    font-family: Arial;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+.form-container {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+}
+
+input, textarea, select, button {
+    width: 90%;
+    margin: 5px;
+    padding: 8px;
+}
+
+#timeline {
+    margin-top: 20px;
+}
+
+.memory-card {
+    background: white;
+    margin: 20px auto;
+    padding: 15px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #aaa;
+}
+
+.memory-card img {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.happy { border-left: 5px solid gold; }
+.sad { border-left: 5px solid blue; }
+.proud { border-left: 5px solid purple; }
+.excited { border-left: 5px solid orange; }

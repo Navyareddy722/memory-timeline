@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet"href="style.css">
+    <title>Memory Timeline</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Memory Timeline</h1>
+
+    <div class="form-container">
+        <input type="text" id="title" placeholder="Memory Title">
+        <input type="date" id="date">
+        <textarea id="description" placeholder="Write your memory..."></textarea>
+
+        <select id="mood">
+            <option value="happy">Happy</option>
+            <option value="sad">Sad</option>
+            <option value="proud">Proud</option>
+            <option value="excited">Excited</option>
+        </select>
+
+        <input type="file" id="image" accept="image/*">
+
+        <button id="startBtn">🎙 Start Recording</button>
+        <button id="stopBtn">⏹ Stop Recording</button>
+        <audio id="audioPreview" controls></audio>
+
+        <button onclick="addMemory()">Add Memory</button>
+    </div>
+
+    <div id="timeline"></div>
+
+    <script src="script.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
